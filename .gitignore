@@ -6,9 +6,15 @@
 # Gradle
 .gradle/
 build/
+gradlew
+gradlew.bat
 
 # Compiled class files
 out/
+*.class
+
+# Compiled Java bytecode
+*.jar
 
 # Gradle Wrapper
 gradle/wrapper/
