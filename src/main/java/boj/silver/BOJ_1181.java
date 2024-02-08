@@ -30,6 +30,14 @@ public class BOJ_1181 {
   }
 }
 
+// 참고할만한 번외 문제풀이
+//TreeSet<String> set = new TreeSet<>(Comparator.comparingInt(String::length).thenComparing(String::compareTo));
+//while(N-- > 0) set.add(sc.next());
+//set.forEach(System.out::println);
+
+// (Comparator.comparingInt(String::length) : 문자열 길이를 비교
+// .thenComparing(String::compareTo) : 길이가 같을 경우 사전순으로 정렬
+// set.forEach(System.out::println); : 트리셋에 저장된 모든 문자열을 출력, 정렬된 순서대로 출력
 
 // 알파벳 정렬
 // 길이가 짧은 것부터
