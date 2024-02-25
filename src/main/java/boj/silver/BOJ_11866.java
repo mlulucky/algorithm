@@ -19,9 +19,11 @@ public class BOJ_11866 {
       for(int i=0; i<K-1; i++) {
         q.offer(q.poll());
       }
-      sb.append(q.poll() + ", ");
+      sb.append(q.poll());
+      sb.append(", ");
     }
-    sb.append(q.poll() + ">");
+    sb.append(q.poll());
+    sb.append(">");
     System.out.println(sb);
   }
 }
